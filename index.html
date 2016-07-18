@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+
+
+    <meta charset="UTF-8">
+
+</head>
+
+<body onload="init()">
+
+    <div class="box-form">
+        <form>
+            Parent:
+            <input class="form-control" type="text" maxlength="1" />
+            Child:
+            <input class="form-control" type="text" maxlength="1" />
+            <button type="button" class="btn btn-primary" value="add" id="addNode">add</button>
+        </form>
+        <hr>
+        <ul id="node-list">
+        </ul>
+    </div>
+    <div class="tree-view" style="display: inline-block;width: 60%;min-height: 100px;">
+    <div class="nodes-tree">
+        <ul>
+        </ul>
+    </div>
+    </div>
+
+
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</body>
+
+</html>
